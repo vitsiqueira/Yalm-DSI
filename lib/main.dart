@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     return LoginAuth();
                   }));
                 },
-                child: Text('Login')),
+                child: Text('Entrar')),
             ElevatedButton(
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
